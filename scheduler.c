@@ -1,13 +1,13 @@
 /*
 	10/12/2017
 	Authors: Connor Lundberg, Carter Odem
-
+	
 	In this project we will be making a simple Round Robin scheduling algorithm
 	that will take a single ReadyQueue of PCBs and run them through our scheduler.
 	It will simulate the "running" of the process by randomly changing the PC value
 	of the process as well as incorporating various interrupts to show the effects
 	it has on the scheduling simulator.
-
+	
 	This file holds the defined functions declared in the scheduler.h header file.
 */
 
@@ -38,7 +38,6 @@ void timer () {
 		pseudoISR(thisScheduler);
 		pc = thisScheduler->running->context->pc;
 	}
-
 	schedulerDeconstructor(thisScheduler);
 }
 
@@ -72,7 +71,7 @@ int makePCBList (Scheduler theScheduler) {
 			theScheduler->isNew = 0;
 		}
 	}
-
+	
 	return newPCBCount;
 }
 
@@ -85,7 +84,7 @@ unsigned int runProcess (unsigned int pc) {
 	unsigned int jump = rand() % MAX_PC_JUMP;
 	if (jump < MIN_PC_JUMP) jump += ((MIN_PC_JUMP - jump) + (rand() % PC_JUMP_LIMIT));
 	pc += jump;
-
+	
 	return pc;
 }
 
@@ -105,12 +104,11 @@ void pseudoISR (Scheduler theScheduler) {
 
 
 /*
-	If the interrupt that occurs was a Timer interrupt, it will simply set the
+	If the interrupt that occurs was a Timer interrupt, it will simply set the 
 	interrupted PCBs state to Ready and enqueue it into the Ready queue. It then
 	calls the dispatcher to get the next PCB in the queue.
 */
 void scheduling (int isTimer, Scheduler theScheduler) {
-
 	if (isTimer) {
 		theScheduler->interrupted->state = STATE_READY;
 		q_enqueue(theScheduler->ready, theScheduler->interrupted);
@@ -118,7 +116,7 @@ void scheduling (int isTimer, Scheduler theScheduler) {
 	if (switchCalls != (SWITCH_CALLS - 1)) {
 		switchCalls++;
 	}
-
+	
 	if (switchCalls == (SWITCH_CALLS - 1)) {
 		char *runningPCBState = toStringPCB(theScheduler->running, 0);
 		printf("Before switching:\r\n");
@@ -129,9 +127,9 @@ void scheduling (int isTimer, Scheduler theScheduler) {
 		printf("%s\r\n\r\n", nextPCBState);
 		free(nextPCBState);
 	}
-
+	
 	dispatcher(theScheduler);
-
+	
 	if (switchCalls == (SWITCH_CALLS - 1)) {
 		printf("After switching:\r\n");
 		char *runningPCBState = toStringPCB(theScheduler->running, 0);
@@ -144,7 +142,7 @@ void scheduling (int isTimer, Scheduler theScheduler) {
 		printf("%s\r\n\r\n", queueState);
 		free(queueState);
 		switchCalls = 0;
-	}
+	} 
 }
 
 
@@ -166,6 +164,10 @@ void pseudoIRET (Scheduler theScheduler) {
 }
 
 
+/*
+	This will construct the Scheduler, along with its numerous ReadyQueues and
+	important PCBs.
+*/
 Scheduler schedulerConstructor () {
 	Scheduler newScheduler = (Scheduler) malloc (sizeof(scheduler_s));
 	newScheduler->created = q_create();
@@ -175,11 +177,17 @@ Scheduler schedulerConstructor () {
 	newScheduler->running = PCB_create();
 	newScheduler->interrupted = PCB_create();
 	newScheduler->isNew = 1;
-
+	
 	return newScheduler;
 }
 
 
+/*
+	This will do the opposite of the constructor with the exception of 
+	the interrupted PCB which checks for equivalancy of it and the running
+	PCB to see if they are pointing to the same freed process (so the program
+	doesn't crash).
+*/
 void schedulerDeconstructor (Scheduler theScheduler) {
 	q_destroy(theScheduler->created);
 	q_destroy(theScheduler->killed);
@@ -191,6 +199,7 @@ void schedulerDeconstructor (Scheduler theScheduler) {
 	}
 	free (theScheduler);
 }
+
 
 void main () {
 	setvbuf(stdout, NULL, _IONBF, 0);
