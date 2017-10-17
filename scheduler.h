@@ -1,14 +1,14 @@
 /*
 	10/12/2017
 	Authors: Connor Lundberg, Carter Odem
-	
+
 	In this project we will be making a simple Round Robin scheduling algorithm
 	that will take a single ReadyQueue of PCBs and run them through our scheduler.
 	It will simulate the "running" of the process by randomly changing the PC value
 	of the process as well as incorporating various interrupts to show the effects
 	it has on the scheduling simulator.
-	
-	This file holds the definitions of structs and declarations functions for the 
+
+	This file holds the definitions of structs and declarations functions for the
 	scheduler.c file.
 */
 #ifndef SCHEDULER_H
@@ -16,10 +16,7 @@
 
 //includes
 #include "fifo_queue.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
+
 
 
 //defines
@@ -38,7 +35,7 @@
 }
 
 typedef struct created_list {
-	
+
 }*/
 
 typedef struct scheduler {

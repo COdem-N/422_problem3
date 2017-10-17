@@ -1,11 +1,15 @@
 /*
-    in this project we implement a multi level feed back queue system.
+10/17/2017
+Authors: Carter Odem , Amanda Aldrich
+
+In this project our goal is to design, implement, and test a scheduling
+simulation of the full MLFQ algorithm
 */
 
 #ifndef mlfq_h
 #define mlfq_h
 
-
+#include "scheduler.h"
 
 //includes
 #include "fifo_queue.h"
