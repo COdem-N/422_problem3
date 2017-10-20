@@ -22,7 +22,7 @@ typedef Node_s * ReadyQueueNode;
 typedef struct fifo_queue {
     ReadyQueueNode first_node;
     ReadyQueueNode last_node;
-
+    int quantom;
     unsigned int size;
 } FIFOq_s;
 

@@ -46,6 +46,7 @@ typedef struct pcb {
     unsigned char * mem; // start of process in memory
     unsigned int size; // number of bytes in process
     unsigned char channel_no; // which I/O device or service Q
+    unsigned int privlage;
     // if process is blocked, which queue it is in
     CPU_context_p context; // set of cpu registers
     // other items to be added as needed.

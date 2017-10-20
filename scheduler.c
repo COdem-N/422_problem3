@@ -10,11 +10,17 @@
 
 	This file holds the defined functions declared in the scheduler.h header file.
 */
-
 #include "scheduler.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
 
-// unsigned int sysstack;
-// int switchCalls;
+// Global variables
+unsigned int sysstack;
+int switchCalls;
+int current_quant;
+int quantoms[16];
 
 /*
 	This function is our main loop. It creates a Scheduler object and follows the
@@ -33,12 +39,33 @@ void timer () {
 			break;
 		}
 		totalProcesses += makePCBList(thisScheduler);
+		printg("created %d pcbs",totalProcesses);
 		pc = runProcess(pc);
 		sysstack = pc;
-		pseudoISR(thisScheduler);
+
+		terminate(thisScheduler->running);
+
+		if(current_quant > quantoms[thisScheduler->running->priority] )
+		{
+			pseudoISR(thisScheduler);
+			thisScheduler->running->priority--;
+		}
+
 		pc = thisScheduler->running->context->pc;
+
+		current_quant++;
 	}
 	schedulerDeconstructor(thisScheduler);
+}
+
+int terminate(PCB_s thepcb)
+{
+	randval = rand() % 100;
+	if(randval <= 15)
+	{
+		enqueue(theScheduler->zombies,theScheduler->ready);
+	}
+
 }
 
 
@@ -52,9 +79,10 @@ int makePCBList (Scheduler theScheduler) {
 	for (int i = 0; i < newPCBCount; i++) {
 		PCB newPCB = PCB_create();
 		newPCB->state = STATE_NEW;
+		newPCB->priority = 0;
 		q_enqueue(theScheduler->created, newPCB);
 	}
-	printf("Making New PCBs: \r\n");
+	printf("Created queue: \r\n");
 	if (newPCBCount) {
 		while (!q_is_empty(theScheduler->created)) {
 			PCB nextPCB = q_dequeue(theScheduler->created);
@@ -62,7 +90,7 @@ int makePCBList (Scheduler theScheduler) {
 			char *nextPCBState = toStringPCB(nextPCB, 0);
 			printf("%s\r\n", nextPCBState);
 			free(nextPCBState);
-			q_enqueue(theScheduler->ready, nextPCB);
+			q_enqueue(theScheduler->created, nextPCB);
 		}
 		printf("\r\n");
 		if (theScheduler->isNew) {
@@ -113,36 +141,19 @@ void scheduling (int isTimer, Scheduler theScheduler) {
 		theScheduler->interrupted->state = STATE_READY;
 		q_enqueue(theScheduler->ready, theScheduler->interrupted);
 	}
-	if (switchCalls != (SWITCH_CALLS - 1)) {
-		switchCalls++;
+
+	while(!q_is_empty(theScheduler->created)) {
+		PCB readyPCB = dequeue(theScheduler->created);
+		q_enqueue(theScheduler->ready[readyPCB->priority],readyPCB)
 	}
 
-	if (switchCalls == (SWITCH_CALLS - 1)) {
-		char *runningPCBState = toStringPCB(theScheduler->running, 0);
-		printf("Before switching:\r\n");
-		printf("%s\r\n", runningPCBState);
-		free(runningPCBState);
-		printf("Switching to:\r\n");
-		char *nextPCBState = toStringPCB(q_peek(theScheduler->ready), 0);
-		printf("%s\r\n\r\n", nextPCBState);
-		free(nextPCBState);
-	}
+		switchCalls++;
+
+
 
 	dispatcher(theScheduler);
 
-	if (switchCalls == (SWITCH_CALLS - 1)) {
-		printf("After switching:\r\n");
-		char *runningPCBState = toStringPCB(theScheduler->running, 0);
-		printf("%s\r\n", runningPCBState);
-		free(runningPCBState);
-		char *interruptedPCBState = toStringPCB(theScheduler->interrupted, 0);
-		printf("%s\r\n\r\n", interruptedPCBState);
-		free(interruptedPCBState);
-		char *queueState = toStringReadyQueue(theScheduler->ready, 0);
-		printf("%s\r\n\r\n", queueState);
-		free(queueState);
-		switchCalls = 0;
-	}
+
 }
 
 
@@ -151,8 +162,16 @@ void scheduling (int isTimer, Scheduler theScheduler) {
 	running state of the Scheduler.
 */
 void dispatcher (Scheduler theScheduler) {
-	theScheduler->running = q_dequeue(theScheduler->ready);
-	theScheduler->running->state = STATE_RUNNING;
+	int i;
+	for(i=0;i<15;i++)
+	{
+		if(!q_is_empty(theScheduler->ready[i])) {
+			theScheduler->running = q_dequeue(theScheduler->ready[i]);
+			theScheduler->running->state = STATE_RUNNING;
+			break;
+		}
+	}
+
 }
 
 
@@ -169,11 +188,16 @@ void pseudoIRET (Scheduler theScheduler) {
 	important PCBs.
 */
 Scheduler schedulerConstructor () {
+	int i;
 	Scheduler newScheduler = (Scheduler) malloc (sizeof(scheduler_s));
-	newScheduler->created = q_create();
+	for (i=0;i<15;i++)
+	{
+		newScheduler->ready[i] = q_create();
+		newScheduler->ready[i]->quantom = quantoms[i];
+	}
+	newSched/uler->created = q_create();
 	newScheduler->killed = q_create();
 	newScheduler->blocked = q_create();
-	newScheduler->ready = q_create();
 	newScheduler->running = PCB_create();
 	newScheduler->interrupted = PCB_create();
 	newScheduler->isNew = 1;
@@ -189,11 +213,15 @@ Scheduler schedulerConstructor () {
 	doesn't crash).
 */
 void schedulerDeconstructor (Scheduler theScheduler) {
+	int i;
 	q_destroy(theScheduler->created);
-	q_destroy(theScheduler->killed);
-	q_destroy(theScheduler->blocked);
+	for (i=0;i<15;i++){
+
 	q_destroy(theScheduler->ready);
-	PCB_destroy(theScheduler->running);
+}
+q_destroy(theScheduler->killed);
+q_destroy(theScheduler->blocked);
+PCB_destroy(theScheduler->running);
 	if (theScheduler->interrupted == theScheduler->running) {
 		PCB_destroy(theScheduler->interrupted);
 	}
@@ -201,11 +229,28 @@ void schedulerDeconstructor (Scheduler theScheduler) {
 }
 
 
-// void main () {
-// 	setvbuf(stdout, NULL, _IONBF, 0);
-// 	time_t t;
-// 	srand((unsigned) time(&t));
-// 	sysstack = 0;
-// 	switchCalls = 0;
-// 	timer();
-// }
+void main () {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	time_t t;
+	srand((unsigned) time(&t));
+
+	quantoms[0] = p0_quantoms;
+	quantoms[1] = p1_quantoms;
+	quantoms[2] = p2_quantoms;
+	quantoms[3] = p3_quantoms;
+	quantoms[4] = p4_quantoms;
+	quantoms[5] = p5_quantoms;
+	quantoms[6] = p6_quantoms;
+	quantoms[7] = p7_quantoms;
+	quantoms[8] = p8_quantoms;
+	quantoms[9] = p9_quantoms;
+	quantoms[10] = p10_quantoms;
+	quantoms[11] = p11_quantoms;
+	quantoms[12] = p12_quantoms;
+	quantoms[13] = p13_quantoms;
+	quantoms[14] = p14_quantoms;
+
+	sysstack = 0;
+	switchCalls = 0;
+	timer();
+}
