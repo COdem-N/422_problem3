@@ -141,7 +141,7 @@ char * toStringPCB(/* in */ PCB the_pcb, int showAll) {
 		/* Append the context: */
 		sprintf(temp_buf + cpos, "PC: 0x%04X", the_pcb->context->pc);
 	}
-	
+
     /* A string that can be returned and -not- go out of scope. */
     char * ret_val = malloc(sizeof(char) * (strlen(temp_buf) + 1));
 

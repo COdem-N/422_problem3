@@ -11,6 +11,7 @@
 	This file holds the defined functions declared in the scheduler.h header file.
 */
 #include "scheduler.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -20,7 +21,8 @@
 unsigned int sysstack;
 int switchCalls;
 int quantoms[16];
-PCB_s privileged[4];
+int privileged_size;
+PCB privileged[4];
 
 /*
 	This function is our main loop. It creates a Scheduler object and follows the
@@ -30,32 +32,33 @@ PCB_s privileged[4];
 	with the new process.
 */
 void timer () {
+	int i;
 	unsigned int pc = 0;
 	int totalProcesses = 0;
 	int current_quant = 0;
 	Scheduler thisScheduler = schedulerConstructor();
 	for (;;) {
-		if (totalProcesses >= MAX_PCB_TOTAL) {
-			printf("Reached max PCBs, ending Scheduler.\r\n");
-			break;
-		}
+		printf("making pcbs\n");
 		totalProcesses += makePCBList(thisScheduler);
-		printg("created %d pcbs",totalProcesses);
-		pc = runProcess(pc);
+
+		pc = runProcess(thisScheduler,pc);
+
 		sysstack = pc;
 
-		terminate(thisScheduler->running);
+		terminate(thisScheduler->running, thisScheduler);
 
-		// checks to see if the current runnning pcb time slice is up
-		if(current_quant > quantoms[thisScheduler->running->priority] )
-		{
-			if(thisScheduler->running->privalge == 0 )
-			{
-				thisScheduler->running->priority--;
-				pseudoISR(thisScheduler);
-			}
-		}
+		printf("--interupt\n");
+		pseudoISR(thisScheduler);
+
+
 		pc = thisScheduler->running->context->pc;
+		printf("Iteration: %d\n",current_quant);
+		printf("Created %d pcbs\n",totalProcesses);
+
+		char *readyqueue = toStringPriorityQueue(thisScheduler->ready);
+		printf("%s\r\n", readyqueue);
+		free(readyqueue);
+
 		print_privileged();
 		current_quant++;
 	}
@@ -65,12 +68,12 @@ void timer () {
 Tthis function generates a random number between 0 and 100, if the number is 15
 or less the function will mark the current pcb for termination.
 */
-int terminate(PCB_s thepcb)
+int terminate(PCB thepcb, Scheduler theScheduler)
 {
-	randval = rand() % 100;
-	if(randval <= 15)
+	int randval = rand() % 100;
+	if(randval <= 15 && thepcb->privlage == 0)
 	{
-		enqueue(theScheduler->zombies,theScheduler->ready);
+		q_enqueue(theScheduler->zombies,theScheduler->running);
 	}
 
 }
@@ -79,13 +82,17 @@ int terminate(PCB_s thepcb)
 void print_privileged()
 {
 	int i;
-	for(i=0;i<3;i++)
+	printf("Privileged few:\n");
+	if(privileged_size > 0)
 	{
-		char *PCBState = toStringPCB(*privileged[i], 0);
-		printf("%s\r\n", PCBState);
-		free(PCBState);
+		for(i=0;i<3;i++)
+		{
+			char *PCBState = toStringPCB(privileged[i], 0);
+			printf("%s\r\n", PCBState);
+			free(PCBState);
+		}
 	}
-
+	printf("end;\n");
 }
 
 /*
@@ -95,30 +102,27 @@ void print_privileged()
 */
 int makePCBList (Scheduler theScheduler) {
 	int newPCBCount = rand() % MAX_PCB_IN_ROUND;
+
+	int randval;
+
 	for (int i = 0; i < newPCBCount; i++) {
+
+		randval = rand() % 100;
+
 		PCB newPCB = PCB_create();
 		newPCB->state = STATE_NEW;
 		newPCB->priority = 0;
+		newPCB->privlage = 0;
+
+		if(randval <= 15 && privileged_size < 4)
+		{
+			newPCB->privlage = 1;
+			privileged[privileged_size - 1] = newPCB;
+			privileged_size++;
+		}
+
 		q_enqueue(theScheduler->created, newPCB);
 	}
-	printf("Created queue: \r\n");
-	if (newPCBCount) {
-		while (!q_is_empty(theScheduler->created)) {
-			PCB nextPCB = q_dequeue(theScheduler->created);
-			nextPCB->state = STATE_READY;
-			char *nextPCBState = toStringPCB(nextPCB, 0);
-			printf("%s\r\n", nextPCBState);
-			free(nextPCBState);
-			q_enqueue(theScheduler->created, nextPCB);
-		}
-		printf("\r\n");
-		if (theScheduler->isNew) {
-			theScheduler->running = q_dequeue(theScheduler->ready);
-			theScheduler->running->state = STATE_RUNNING;
-			theScheduler->isNew = 0;
-		}
-	}
-
 	return newPCBCount;
 }
 
@@ -127,9 +131,9 @@ int makePCBList (Scheduler theScheduler) {
 	Creates a random number between 3000 and 4000 and adds it to the current PC.
 	It then returns that new PC value.
 */
-unsigned int runProcess (unsigned int pc) {
-	unsigned int jump = rand() % MAX_PC_JUMP;
-	if (jump < MIN_PC_JUMP) jump += ((MIN_PC_JUMP - jump) + (rand() % PC_JUMP_LIMIT));
+unsigned int runProcess (Scheduler theScheduler, unsigned int pc) {
+	unsigned int jump = rand() % quantoms[theScheduler->running->priority];
+
 	pc += jump;
 
 	return pc;
@@ -158,8 +162,8 @@ void pseudoISR (Scheduler theScheduler) {
 void scheduling (int isTimer, Scheduler theScheduler) {
 		// moves the pcbs from the created queue to the ready queue
 	while(!q_is_empty(theScheduler->created)) {
-		PCB readyPCB = dequeue(theScheduler->created);
-		q_enqueue(theScheduler->ready[readyPCB->priority],readyPCB)
+		PCB readyPCB = q_dequeue(theScheduler->created);
+		pq_enqueue(theScheduler->ready,readyPCB);
 	}
 
 	// checks if the termincating queue is full
@@ -172,9 +176,17 @@ void scheduling (int isTimer, Scheduler theScheduler) {
 	// checks for timer interupt
 	if (isTimer) {
 		theScheduler->interrupted->state = STATE_READY;
-		q_enqueue(theScheduler->ready[theScheduler->interrupted->priority], theScheduler->interrupted);
+		pq_enqueue(theScheduler->ready, theScheduler->interrupted);
 	}
 
+	if(theScheduler->running->priority == 15)
+	{
+		theScheduler->running->priority = 0;
+	}
+	else
+	{
+		theScheduler->running->priority--;
+	}
 
 
 		switchCalls++;
@@ -193,15 +205,9 @@ void scheduling (int isTimer, Scheduler theScheduler) {
 */
 void dispatcher (Scheduler theScheduler) {
 	int i;
-	for(i=0;i<15;i++)
-	{
-		if(!q_is_empty(theScheduler->ready[i])) {
-			theScheduler->running = q_dequeue(theScheduler->ready[i]);
-			theScheduler->running->state = STATE_RUNNING;
-			break;
-		}
-	}
 
+	theScheduler->running = pq_dequeue(theScheduler->ready);
+	theScheduler->running->state = STATE_RUNNING;
 }
 
 
@@ -220,12 +226,8 @@ void pseudoIRET (Scheduler theScheduler) {
 Scheduler schedulerConstructor () {
 	int i;
 	Scheduler newScheduler = (Scheduler) malloc (sizeof(scheduler_s));
-	for (i=0;i<15;i++)
-	{
-		newScheduler->ready[i] = q_create();
-		newScheduler->ready[i]->quantom = quantoms[i];
-	}
-	newSched/uler->created = q_create();
+	newScheduler->ready = pq_create();
+	newScheduler->created = q_create();
 	newScheduler->zombies = q_create();
 	newScheduler->blocked = q_create();
 	newScheduler->running = PCB_create();
@@ -243,27 +245,29 @@ Scheduler schedulerConstructor () {
 	doesn't crash).
 */
 void schedulerDeconstructor (Scheduler theScheduler) {
-	int i;
-for (i=0;i<15;i++){
-	q_destroy(theScheduler->ready[i]);
-}
 
-q_destroy(theScheduler->created);
-q_destroy(theScheduler->zombies);
-q_destroy(theScheduler->blocked);
-PCB_destroy(theScheduler->running);
+	pq_destroy(theScheduler->ready);
 
-if (theScheduler->interrupted == theScheduler->running) {
+
+	q_destroy(theScheduler->created);
+	q_destroy(theScheduler->zombies);
+	q_destroy(theScheduler->blocked);
+	PCB_destroy(theScheduler->running);
+
+	if (theScheduler->interrupted == theScheduler->running) {
 		PCB_destroy(theScheduler->interrupted);
-}
-free (theScheduler);
+	}
+
+	free (theScheduler);
 }
 
 
 void main () {
+	
 	setvbuf(stdout, NULL, _IONBF, 0);
 	time_t t;
 	srand((unsigned) time(&t));
+	printf("\n");
 
 	quantoms[0] = p0_quantoms;
 	quantoms[1] = p1_quantoms;
@@ -281,6 +285,7 @@ void main () {
 	quantoms[13] = p13_quantoms;
 	quantoms[14] = p14_quantoms;
 
+	privileged_size = 0;
 	sysstack = 0;
 	switchCalls = 0;
 	timer();

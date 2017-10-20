@@ -11,8 +11,9 @@
 #include "pcb.h"
 #include "fifo_queue.h"
 
+
 typedef struct priority_queue {
-    ReadyQueue     queues[NUM_PRIORITIES];
+    ReadyQueue queues[16];
 } PQ_s;
 
 typedef struct priority_queue * PriorityQueue;

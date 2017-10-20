@@ -15,13 +15,14 @@
 #define SCHEDULER_H
 
 //includes
+#include "pcb.h"
 #include "fifo_queue.h"
-
+#include "priority_queue.h"
 
 
 //defines
 #define MAX_PCB_TOTAL 30
-#define MAX_PCB_IN_ROUND 6
+#define MAX_PCB_IN_ROUND 5
 #define MAX_PC_JUMP 4000
 #define MIN_PC_JUMP 3000
 #define PC_JUMP_LIMIT 999
@@ -58,7 +59,7 @@ typedef struct scheduler {
 	ReadyQueue created;
 	ReadyQueue zombies;
 	ReadyQueue blocked;
-	ReadyQueue ready[16];
+	PriorityQueue ready;
 	PCB running;
 	PCB interrupted;
 	int isNew;
@@ -72,7 +73,7 @@ void timer ();
 
 int makePCBList (Scheduler);
 
-unsigned int runProcess (unsigned int);
+unsigned int runProcess (Scheduler theScheduler, unsigned int);
 
 void pseudoISR (Scheduler);
 
@@ -86,4 +87,7 @@ Scheduler schedulerConstructor ();
 
 void schedulerDeconstructor (Scheduler);
 
+void print_privileged();
+
+int terminate(PCB thepcb, Scheduler theScheduler);
 #endif
