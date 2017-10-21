@@ -28,6 +28,7 @@
 #define PC_JUMP_LIMIT 999
 #define IS_TIMER 1
 #define SWITCH_CALLS 4
+#define DEATH_MARK 20
 
 #define p0_quantoms 16
 #define p1_quantoms 15
@@ -61,7 +62,6 @@ typedef struct scheduler {
 	ReadyQueue blocked;
 	PriorityQueue ready;
 	PCB running;
-	PCB interrupted;
 	int isNew;
 } scheduler_s;
 

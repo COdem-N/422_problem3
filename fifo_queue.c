@@ -203,7 +203,7 @@ char * toStringReadyQueue(/* in */ ReadyQueue FIFOq, /* in */ char display_back)
  *            capacity: a pointer to the current capacity, will be changed if resized.
  * Return: NULL if failure, the new (possibly same) pointer otherwise.
  */
-void * resize_block_if_needed(/* in */ void * in_ptr, /* in */ unsigned int end_pos, /* in-out */ unsigned int * capacity) {
+void * resize_block_if_needed(void * in_ptr,  unsigned int end_pos, unsigned int * capacity) {
     unsigned int new_capacity = end_pos * 2;
     void * ptr_resize = NULL;
 

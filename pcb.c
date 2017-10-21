@@ -104,7 +104,7 @@ void PCB_assign_parent(PCB the_pcb, int the_pid) {
  */
 void PCB_assign_priority(/* in */ PCB the_pcb, /* in */ unsigned int the_priority) {
     the_pcb->priority = the_priority;
-    if (the_priority > NUM_PRIORITIES) {
+    if (the_priority >= NUM_PRIORITIES) {
         the_pcb->priority = NUM_PRIORITIES - 1;
     }
 }

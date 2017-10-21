@@ -116,30 +116,40 @@ char pq_is_empty(PriorityQueue PQ) {
  * Arguments: PQ: the Priority Queue to create a string representation of.
  * Return: A string representation of the provided Priority Queue, or NULL on failure.
  */
-char * toStringPriorityQueue(PriorityQueue PQ) {
-    unsigned int buff_len = 1000;
-    unsigned int cpos = 0;
-    unsigned int q_str_len = 0;
-    char * ret_str = malloc(sizeof(char) * buff_len);
-    char * str_resize = NULL;
-    char * q_str = NULL;
-    int i;
+ char * toStringPriorityQueue(PriorityQueue PQ) {
+     unsigned int buff_len = 100000;
+     unsigned int cpos = 0;
+     unsigned int q_str_len = 0;
+     char * ret_str = malloc(sizeof(char) * buff_len);
+     char * str_resize = NULL;
+     char * q_str = NULL;
+     int i;
 
-    if (ret_str != NULL) {
-        for (i = 0; i < NUM_PRIORITIES; i++) {
-            q_str = toStringReadyQueue(PQ->queues[i], 0);
-            if (q_str != NULL) {
-                q_str_len = strlen(q_str);
-                str_resize = resize_block_if_needed(ret_str, cpos + q_str_len
-                                        + ADDITIONAL_ROOM_FOR_TOSTR, &buff_len);
-                if (str_resize != NULL) {
-                    ret_str = str_resize;
-                    cpos += sprintf(ret_str + cpos, "Q%d:%s\n", i, q_str);
-                }
-                free(q_str);
-            }
-        }
-    }
+     if (ret_str != NULL) {
+         for (i = 0; i < NUM_PRIORITIES; i++) {
 
-    return ret_str;
-}
+             q_str = toStringReadyQueue(PQ->queues[i], 0);
+
+
+             if (q_str != NULL) {
+                 q_str_len = strlen(q_str);
+
+
+                 str_resize = resize_block_if_needed(ret_str, cpos + q_str_len
+                                         + ADDITIONAL_ROOM_FOR_TOSTR, &buff_len);
+
+
+                 if (str_resize != NULL) {
+                     ret_str = str_resize;
+                     cpos += sprintf(ret_str + cpos, "Q%d:%s\n", i, q_str);
+                 }
+
+
+                 free(q_str);
+             }
+
+         }
+     }
+
+     return ret_str;
+ }
