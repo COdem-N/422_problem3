@@ -1,6 +1,6 @@
 /*
 	10/12/2017
-	Authors: Connor Lundberg, Carter Odem
+	Authors: Connor Lundberg, Carter Odem,Amanda Aldrich
 
 	In this project we will be making a simple Round Robin scheduling algorithm
 	that will take a single ReadyQueue of PCBs and run them through our scheduler.

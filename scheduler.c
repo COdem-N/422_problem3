@@ -1,17 +1,12 @@
 /*
 	10/12/2017
-	Authors: Connor Lundberg, Carter Odem
-
+	Authors: Connor Lundberg, Carter Odem,Amanda Aldrich
 	In this project we will be making a simple Round Robin scheduling algorithm
 	that will take a single ReadyQueue of PCBs and run them through our scheduler.
 	It will simulate the "running" of the process by randomly changing the PC value
 	of the process as well as incorporating various interrupts to show the effects
 	it has on the scheduling simulator.
-
 	This file holds the defined functions declared in the scheduler.h header file.
-
-
-
 */
 #include "scheduler.h"
 #include <stdio.h>
@@ -26,7 +21,6 @@ int quantoms[16];
 int privileged_size;
 PCB privileged[4];
 
-//gcc pcb.c fifo_queue.c priority_queue.c scheduler.c
 
 /*
 	This function is our main loop. It creates a Scheduler object and follows the
@@ -44,7 +38,7 @@ void timer () {
 
 	for (;;) {
 
-		if(current_quant > 1000){
+		if(current_quant > 100){
 			break;
 		}
 
@@ -54,38 +48,33 @@ void timer () {
 		switchCalls = processesCreated;
 		printf("Created %d pcbs\n",processesCreated);
 
-		if(totalpcb > 0)
-		{
-			// increment the pc
-			pc = runProcess(thisScheduler,pc);
-			sysstack = pc;
-
-			//possibly turminate
-			terminate(thisScheduler->running, thisScheduler);
-
-			// call timer interupt
-			//printf("Timmer Interupt\n");
-			pseudoISR(thisScheduler);
-			pc = thisScheduler->running->context->pc;
-
-			// printing out state of the scheduling
-			printf("Iteration: %d\n",current_quant);
-
-			char *readyqueue = toStringPriorityQueue(thisScheduler->ready);
-
-			printf("created readyqueue string\n");
-			printf("%s", readyqueue);
-
-			free(readyqueue);
-
-			print_privileged();
 
 
-		}
+		// increment the pc
+		pc = runProcess(thisScheduler,pc);
+		sysstack = pc;
+
+		//possibly turminate
+		terminate(thisScheduler->running, thisScheduler);
+
+		// call timer interupt
+		//printf("Timmer Interupt\n");
+		pseudoISR(thisScheduler);
+		pc = thisScheduler->running->context->pc;
 
 
 
+		// printing out state of the scheduling
+		printf("Iteration: %d\n",current_quant);
 
+		char *readyqueue = toStringPriorityQueue(thisScheduler->ready);
+
+		//printf("created readyqueue string\n");
+		printf("%s", readyqueue);
+
+		free(readyqueue);
+
+		print_privileged();
 
 		printf("\n");
 		current_quant++;
@@ -101,10 +90,13 @@ int terminate(PCB thepcb, Scheduler theScheduler)
 {
 
 	int randval = rand() % 100;
-	if(randval <= 15 && thepcb->privlage == 0)
+	if (theScheduler->running != NULL)
 	{
-		printf("Marked for Termination\n");
-		theScheduler->running->priority += DEATH_MARK; //marked for death!!!!
+		if(randval <= 15 && thepcb->privlage == 0)
+		{
+			//printf("Marked for Termination\n");
+			theScheduler->running->priority += DEATH_MARK; //marked for death!!!!
+		}
 	}
 
 }
@@ -132,7 +124,7 @@ void print_privileged()
 	list of created PCBs, and moving each of those PCBs into the ready queue.
 */
 int makePCBList (Scheduler theScheduler) {
-	//	printf(" making pcbs\n");
+	//printf("making pcbs\n");
 	int newPCBCount = rand() % MAX_PCB_IN_ROUND;
 
 	int randval;
@@ -149,7 +141,7 @@ int makePCBList (Scheduler theScheduler) {
 		newPCB->privlage = 0;
 		if(randval <= 15 && privileged_size < 4)
 		{
-			printf("you are special \n");
+			//printf("you are special \n");
 			newPCB->privlage = 1;
 
 			privileged[privileged_size] = newPCB;
@@ -159,16 +151,12 @@ int makePCBList (Scheduler theScheduler) {
 		}
 
 		q_enqueue(theScheduler->created, newPCB);
-	}
 
-	if (newPCBCount) {
-		if (theScheduler->isNew) {
-			theScheduler->running = q_dequeue(theScheduler->created);
-			theScheduler->running->state = STATE_RUNNING;
-			theScheduler->isNew = 0;
-		}
+
 
 	}
+
+
 
 	return newPCBCount;
 }
@@ -180,17 +168,19 @@ int makePCBList (Scheduler theScheduler) {
 */
 unsigned int runProcess (Scheduler theScheduler, unsigned int pc) {
 
-	if(theScheduler->running->priority <= 15)
+	if (theScheduler->running != NULL)
 	{
-		unsigned int jump = rand() % quantoms[theScheduler->running->priority];
-		pc += jump;
+		if(theScheduler->running->priority <= 15)
+		{
+			unsigned int jump = rand() % quantoms[theScheduler->running->priority];
+			pc += jump;
+		}
+		else
+		{
+			unsigned int jump = rand() % quantoms[(theScheduler->running->priority - DEATH_MARK)];
+			pc += jump;
+		}
 	}
-	else
-	{
-		unsigned int jump = rand() % quantoms[(theScheduler->running->priority - DEATH_MARK)];
-		pc += jump;
-	}
-
 	return pc;
 }
 
@@ -201,6 +191,7 @@ unsigned int runProcess (Scheduler theScheduler, unsigned int pc) {
 	PCB to interrupted, saving the PC to the SysStack and calling the scheduler.
 */
 void pseudoISR (Scheduler theScheduler) {
+
 
 	theScheduler->running->state = STATE_INT;
 	theScheduler->running->context->pc = sysstack;
@@ -216,68 +207,68 @@ void pseudoISR (Scheduler theScheduler) {
 	calls the dispatcher to get the next PCB in the queue.
 */
 void scheduling (int isTimer, Scheduler theScheduler) {
-	//printf("scheduling\n");
+	printf("scheduling\n");
 	int term = 0;
 
 	// moves the pcbs from the created queue to the ready queue
-	if(switchCalls > 0)
-	{
-		while(!q_is_empty(theScheduler->created)) {
-			PCB readyPCB = q_dequeue(theScheduler->created);
-			readyPCB->state = STATE_READY;
-			pq_enqueue(theScheduler->ready,readyPCB);
-		}
+	while(theScheduler->created->size > 0 ) {
+		PCB readyPCB = q_dequeue(theScheduler->created);
+		readyPCB->state = STATE_READY;
+		pq_enqueue(theScheduler->ready,readyPCB);
 	}
 
 
 	// checks if the termincating queue is full
 	if(theScheduler->zombies->size >= 10)
 	{
-		printf("destroying zombies queue\n");
-		q_destroy(theScheduler->zombies);
+		//printf("destroying zombies queue %d\n",theScheduler->zombies->size);
 		theScheduler->zombies = q_create();
 	}
 
-	printf("priority check\n");
-	if(theScheduler->running->priority == 15)
+//	printf("priority check\n");
+	if(theScheduler->running != NULL)
 	{
-		theScheduler->running->priority = 0;
+		if(theScheduler->running->priority == 15)
+		{
+			theScheduler->running->priority = 0;
+		}
+		else if (theScheduler->running->priority >= 20)
+		{
+			//printf("moving PCB to zombie queue\n");
+			theScheduler->running->state = STATE_HALT;
+			q_enqueue(theScheduler->zombies, theScheduler->running);
+			term = 1;
+		}
+		else
+		{
+			//printf("inc priority\n");
+			theScheduler->running->priority++;
+		}
 	}
-	else if (theScheduler->running->priority >= 20)
-	{
-		printf("moving PCB to zombie queue\n");
-		theScheduler->running->state = STATE_HALT;
-		q_enqueue(theScheduler->zombies, theScheduler->running);
-		term = 1;
-	}
-	else
-	{
-		printf("inc priority\n");
-		theScheduler->running->priority++;
-	}
-
 
 	// checks for timer interupt
 	if (isTimer)
 	{	//printf("timmer int\n");
+
 		if (term == 0)
 		{
-			theScheduler->running->state = STATE_READY;
-			pq_enqueue(theScheduler->ready, theScheduler->running);
+			if(theScheduler->running != NULL)
+			{
+
+				theScheduler->running->state = STATE_READY;
+
+				pq_enqueue(theScheduler->ready, theScheduler->running);
+			}
 		}
-		else {
+		else
+		{
 			term = 0;
 		}
 
 		dispatcher(theScheduler);
 	}
-
-
-
-
-
-
 }
+
 
 
 /*
@@ -286,11 +277,17 @@ void scheduling (int isTimer, Scheduler theScheduler) {
 */
 void dispatcher (Scheduler theScheduler) {
 
-	if(!pq_is_empty(theScheduler->ready))
+	if(theScheduler->ready->size > 0)
 	{
-		printf("dispatched\n");
+
 		theScheduler->running = pq_dequeue(theScheduler->ready);
-		theScheduler->running->state = STATE_RUNNING;
+
+		if(theScheduler->running != NULL)
+		{
+			theScheduler->running->state = STATE_RUNNING;
+		}
+
+
 	}
 
 }
@@ -317,7 +314,6 @@ Scheduler schedulerConstructor () {
 	newScheduler->blocked = q_create();
 	newScheduler->running = PCB_create();
 	newScheduler->isNew = 1;
-	newScheduler->running = NULL;
 	return newScheduler;
 }
 

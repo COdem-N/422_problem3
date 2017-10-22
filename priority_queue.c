@@ -40,7 +40,7 @@ PriorityQueue pq_create() {
             new_pq = NULL;
         }
     }
-
+    new_pq->size = 0;
     return new_pq;
 }
 
@@ -68,6 +68,7 @@ void pq_destroy(PriorityQueue PQ) {
  */
 void pq_enqueue(PriorityQueue PQ, PCB pcb) {
     q_enqueue(PQ->queues[pcb->priority], pcb);
+    PQ->size++;
 }
 
 /*
@@ -86,6 +87,7 @@ PCB pq_dequeue(PriorityQueue PQ) {
             break;
         }
     }
+    PQ->size--;
     return ret_pcb;
 }
 

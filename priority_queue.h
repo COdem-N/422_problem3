@@ -13,7 +13,8 @@
 
 
 typedef struct priority_queue {
-    ReadyQueue queues[16];
+    ReadyQueue queues[NUM_PRIORITIES];
+    int size;
 } PQ_s;
 
 typedef struct priority_queue * PriorityQueue;

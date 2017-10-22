@@ -1,1239 +1,2512 @@
-
-you are special 
-you are special 
-Created 2 pcbs
+Authors: Carter Odem, Amanda Aldrich
+Created 0 pcbs
+scheduling
 Iteration: 0
-Q0:Q:Count=0: 
-Q1:Q:Count=1: P2-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=0:
+Q1:Q:Count=0:
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 2, memloc: 0x0 PC: 0x000D
 
-Created 3 pcbs
+Created 0 pcbs
+scheduling
 Iteration: 1
-Q0:Q:Count=2: P5->P6-*
-Q1:Q:Count=2: P2->P3-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=0:
+Q1:Q:Count=0:
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
 
-Created 2 pcbs
+Created 3 pcbs
+scheduling
 Iteration: 2
-Q0:Q:Count=3: P6->P7->P8-*
-Q1:Q:Count=3: P2->P3->P4-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=2: P2->P3-*
+Q1:Q:Count=0:
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
 
-you are special 
-Created 1 pcbs
+Created 3 pcbs
+scheduling
 Iteration: 3
-Q0:Q:Count=3: P7->P8->P9-*
-Q1:Q:Count=4: P2->P3->P4->P5-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=4: P3->P4->P5->P6-*
+Q1:Q:Count=1: P1-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0000
 
-you are special 
-Created 2 pcbs
+Created 3 pcbs
+scheduling
 Iteration: 4
-Q0:Q:Count=4: P8->P9->P10->P11-*
-Q1:Q:Count=5: P2->P3->P4->P5->P6-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=6: P4->P5->P6->P7->P8->P9-*
+Q1:Q:Count=1: P1-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x0000
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x0000
 
 Created 4 pcbs
+scheduling
 Iteration: 5
-Q0:Q:Count=7: P9->P10->P11->P12->P13->P14->P15-*
-Q1:Q:Count=6: P2->P3->P4->P5->P6->P7-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=9: P5->P6->P7->P8->P9->P10->P11->P12->P13-*
+Q1:Q:Count=2: P1->P3-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x0000
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x4, state: 2, memloc: 0x0 PC: 0x002D
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0000
 
-Created 0 pcbs
+Created 2 pcbs
+scheduling
 Iteration: 6
-Q0:Q:Count=6: P10->P11->P12->P13->P14->P15-*
-Q1:Q:Count=7: P2->P3->P4->P5->P6->P7->P8-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=10: P6->P7->P8->P9->P10->P11->P12->P13->P14->P15-*
+Q1:Q:Count=3: P1->P3->P4-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 2, memloc: 0x0 PC: 0x0033
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 2, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0000
 
 Created 0 pcbs
+scheduling
 Iteration: 7
-Q0:Q:Count=5: P11->P12->P13->P14->P15-*
-Q1:Q:Count=8: P2->P3->P4->P5->P6->P7->P8->P9-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=9: P7->P8->P9->P10->P11->P12->P13->P14->P15-*
+Q1:Q:Count=4: P1->P3->P4->P5-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0000
 
 Created 3 pcbs
+scheduling
 Iteration: 8
-Q0:Q:Count=7: P12->P13->P14->P15->P16->P17->P18-*
-Q1:Q:Count=9: P2->P3->P4->P5->P6->P7->P8->P9->P10-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=11: P8->P9->P10->P11->P12->P13->P14->P15->P16->P17->P18-*
+Q1:Q:Count=5: P1->P3->P4->P5->P6-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 2, memloc: 0x0 PC: 0x003D
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x0000
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0000
 
-Created 1 pcbs
+Created 0 pcbs
+scheduling
 Iteration: 9
-Q0:Q:Count=7: P13->P14->P15->P16->P17->P18->P19-*
-Q1:Q:Count=10: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=10: P9->P10->P11->P12->P13->P14->P15->P16->P17->P18-*
+Q1:Q:Count=5: P1->P3->P4->P5->P6-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 2, memloc: 0x0 PC: 0x0052
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0000
 
-Created 0 pcbs
-Marked for Termination
-moving PCB to zombie queue
+Created 1 pcbs
+scheduling
 Iteration: 10
-Q0:Q:Count=6: P14->P15->P16->P17->P18->P19-*
-Q1:Q:Count=10: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=10: P10->P11->P12->P13->P14->P15->P16->P17->P18->P19-*
+Q1:Q:Count=6: P1->P3->P4->P5->P6->P8-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0000
 
-Created 4 pcbs
+Created 1 pcbs
+scheduling
 Iteration: 11
-Q0:Q:Count=9: P15->P16->P17->P18->P19->P20->P21->P22->P23-*
-Q1:Q:Count=11: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=10: P11->P12->P13->P14->P15->P16->P17->P18->P19->P20-*
+Q1:Q:Count=7: P1->P3->P4->P5->P6->P8->P9-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0000
 
 Created 1 pcbs
+scheduling
 Iteration: 12
-Q0:Q:Count=9: P16->P17->P18->P19->P20->P21->P22->P23->P24-*
-Q1:Q:Count=12: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=10: P12->P13->P14->P15->P16->P17->P18->P19->P20->P21-*
+Q1:Q:Count=8: P1->P3->P4->P5->P6->P8->P9->P10-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0000
 
-Created 2 pcbs
+Created 4 pcbs
+scheduling
 Iteration: 13
-Q0:Q:Count=10: P17->P18->P19->P20->P21->P22->P23->P24->P25->P26-*
-Q1:Q:Count=13: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=13: P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P25-*
+Q1:Q:Count=9: P1->P3->P4->P5->P6->P8->P9->P10->P11-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 2, memloc: 0x0 PC: 0x007C
 
-Created 0 pcbs
+Created 2 pcbs
+scheduling
 Iteration: 14
-Q0:Q:Count=9: P18->P19->P20->P21->P22->P23->P24->P25->P26-*
-Q1:Q:Count=14: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=14: P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P25->P26->P27-*
+Q1:Q:Count=10: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 3 pcbs
+Created 1 pcbs
+scheduling
 Iteration: 15
-Q0:Q:Count=11: P19->P20->P21->P22->P23->P24->P25->P26->P27->P28->P29-*
-Q1:Q:Count=15: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=14: P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P25->P26->P27->P28-*
+Q1:Q:Count=11: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 1 pcbs
+Created 0 pcbs
+scheduling
 Iteration: 16
-Q0:Q:Count=11: P20->P21->P22->P23->P24->P25->P26->P27->P28->P29->P30-*
-Q1:Q:Count=16: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=13: P16->P17->P18->P19->P20->P21->P22->P23->P24->P25->P26->P27->P28-*
+Q1:Q:Count=12: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 Created 2 pcbs
+scheduling
 Iteration: 17
-Q0:Q:Count=12: P21->P22->P23->P24->P25->P26->P27->P28->P29->P30->P31->P32-*
-Q1:Q:Count=17: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=14: P17->P18->P19->P20->P21->P22->P23->P24->P25->P26->P27->P28->P29->P30-*
+Q1:Q:Count=13: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 0 pcbs
+Created 3 pcbs
+scheduling
 Iteration: 18
-Q0:Q:Count=11: P22->P23->P24->P25->P26->P27->P28->P29->P30->P31->P32-*
-Q1:Q:Count=18: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=16: P18->P19->P20->P21->P22->P23->P24->P25->P26->P27->P28->P29->P30->P31->P32->P33-*
+Q1:Q:Count=13: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 Created 0 pcbs
+scheduling
 Iteration: 19
-Q0:Q:Count=10: P23->P24->P25->P26->P27->P28->P29->P30->P31->P32-*
-Q1:Q:Count=19: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=15: P19->P20->P21->P22->P23->P24->P25->P26->P27->P28->P29->P30->P31->P32->P33-*
+Q1:Q:Count=14: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 Created 1 pcbs
+scheduling
 Iteration: 20
-Q0:Q:Count=10: P24->P25->P26->P27->P28->P29->P30->P31->P32->P33-*
-Q1:Q:Count=20: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=15: P20->P21->P22->P23->P24->P25->P26->P27->P28->P29->P30->P31->P32->P33->P34-*
+Q1:Q:Count=15: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 4 pcbs
+Created 3 pcbs
+scheduling
 Iteration: 21
-Q0:Q:Count=13: P25->P26->P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37-*
-Q1:Q:Count=21: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=17: P21->P22->P23->P24->P25->P26->P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37-*
+Q1:Q:Count=16: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 1 pcbs
+Created 3 pcbs
+scheduling
 Iteration: 22
-Q0:Q:Count=13: P26->P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38-*
-Q1:Q:Count=22: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=19: P22->P23->P24->P25->P26->P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40-*
+Q1:Q:Count=17: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 2 pcbs
-Marked for Termination
-moving PCB to zombie queue
+Created 4 pcbs
+scheduling
 Iteration: 23
-Q0:Q:Count=14: P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40-*
-Q1:Q:Count=22: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=22: P23->P24->P25->P26->P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44-*
+Q1:Q:Count=17: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 2 pcbs
+Created 1 pcbs
+scheduling
 Iteration: 24
-Q0:Q:Count=15: P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42-*
-Q1:Q:Count=23: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=22: P24->P25->P26->P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45-*
+Q1:Q:Count=18: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 2 pcbs
+Created 4 pcbs
+scheduling
 Iteration: 25
-Q0:Q:Count=16: P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44-*
-Q1:Q:Count=24: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=25: P25->P26->P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49-*
+Q1:Q:Count=19: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 4 pcbs
+Created 0 pcbs
+scheduling
 Iteration: 26
-Q0:Q:Count=19: P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48-*
-Q1:Q:Count=25: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=24: P26->P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49-*
+Q1:Q:Count=19: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 2 pcbs
-Marked for Termination
-moving PCB to zombie queue
+Created 1 pcbs
+scheduling
 Iteration: 27
-Q0:Q:Count=20: P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50-*
-Q1:Q:Count=25: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=24: P27->P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50-*
+Q1:Q:Count=20: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 Created 0 pcbs
+scheduling
 Iteration: 28
-Q0:Q:Count=19: P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50-*
-Q1:Q:Count=26: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=23: P28->P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50-*
+Q1:Q:Count=21: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 4 pcbs
+Created 3 pcbs
+scheduling
 Iteration: 29
-Q0:Q:Count=22: P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54-*
-Q1:Q:Count=27: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=25: P29->P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53-*
+Q1:Q:Count=22: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 3 pcbs
+Created 2 pcbs
+scheduling
 Iteration: 30
-Q0:Q:Count=24: P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57-*
-Q1:Q:Count=28: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=26: P30->P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55-*
+Q1:Q:Count=23: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 2 pcbs
-Marked for Termination
-moving PCB to zombie queue
+Created 4 pcbs
+scheduling
 Iteration: 31
-Q0:Q:Count=25: P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59-*
-Q1:Q:Count=28: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=29: P31->P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59-*
+Q1:Q:Count=23: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 4 pcbs
-Marked for Termination
-moving PCB to zombie queue
+Created 2 pcbs
+scheduling
 Iteration: 32
-Q0:Q:Count=28: P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63-*
-Q1:Q:Count=28: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=30: P32->P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61-*
+Q1:Q:Count=24: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 0 pcbs
+Created 3 pcbs
+scheduling
 Iteration: 33
-Q0:Q:Count=27: P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63-*
-Q1:Q:Count=29: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=32: P33->P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64-*
+Q1:Q:Count=25: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
-Created 2 pcbs
+Created 4 pcbs
+scheduling
 Iteration: 34
-Q0:Q:Count=28: P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65-*
-Q1:Q:Count=30: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+Q0:Q:Count=35: P34->P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68-*
+Q1:Q:Count=26: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 1 pcbs
-Iteration: 35
-Q0:Q:Count=28: P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66-*
-Q1:Q:Count=31: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 4 pcbs
-Iteration: 36
-Q0:Q:Count=31: P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70-*
-Q1:Q:Count=32: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 0 pcbs
-Marked for Termination
-moving PCB to zombie queue
-Iteration: 37
-Q0:Q:Count=30: P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70-*
-Q1:Q:Count=32: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 3 pcbs
-Iteration: 38
-Q0:Q:Count=32: P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73-*
-Q1:Q:Count=33: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 4 pcbs
-Marked for Termination
-moving PCB to zombie queue
-Iteration: 39
-Q0:Q:Count=35: P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77-*
-Q1:Q:Count=33: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 4 pcbs
-Iteration: 40
-Q0:Q:Count=38: P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81-*
-Q1:Q:Count=34: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 1 pcbs
-Iteration: 41
-Q0:Q:Count=38: P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82-*
-Q1:Q:Count=35: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 1 pcbs
-Iteration: 42
-Q0:Q:Count=38: P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83-*
-Q1:Q:Count=36: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 0 pcbs
-Iteration: 43
-Q0:Q:Count=37: P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83-*
-Q1:Q:Count=37: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44->P45-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 3 pcbs
-Iteration: 44
-Q0:Q:Count=39: P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86-*
-Q1:Q:Count=38: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44->P45->P46-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 3 pcbs
-Iteration: 45
-Q0:Q:Count=41: P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89-*
-Q1:Q:Count=39: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44->P45->P46->P47-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
-
-Created 4 pcbs
-Iteration: 46
-Q0:Q:Count=44: P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93-*
-Q1:Q:Count=40: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44->P45->P46->P47->P48-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
-Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 Created 2 pcbs
-Iteration: 47
-Q0:Q:Count=45: P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95-*
-Q1:Q:Count=41: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44->P45->P46->P47->P48->P49-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+scheduling
+Iteration: 35
+Q0:Q:Count=36: P35->P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70-*
+Q1:Q:Count=27: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 Created 1 pcbs
-Marked for Termination
-moving PCB to zombie queue
-Iteration: 48
-Q0:Q:Count=45: P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96-*
-Q1:Q:Count=41: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44->P45->P46->P47->P48->P49-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+scheduling
+Iteration: 36
+Q0:Q:Count=36: P36->P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71-*
+Q1:Q:Count=28: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 Created 4 pcbs
-Iteration: 49
-Q0:Q:Count=48: P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100-*
-Q1:Q:Count=42: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44->P45->P46->P47->P48->P49->P51-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+scheduling
+Iteration: 37
+Q0:Q:Count=39: P37->P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75-*
+Q1:Q:Count=29: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 38
+Q0:Q:Count=38: P38->P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75-*
+Q1:Q:Count=30: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 39
+Q0:Q:Count=37: P39->P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75-*
+Q1:Q:Count=30: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 40
+Q0:Q:Count=37: P40->P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76-*
+Q1:Q:Count=30: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 41
+Q0:Q:Count=36: P41->P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76-*
+Q1:Q:Count=31: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 42
+Q0:Q:Count=39: P42->P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80-*
+Q1:Q:Count=32: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 43
+Q0:Q:Count=39: P43->P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81-*
+Q1:Q:Count=33: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 Created 3 pcbs
-Iteration: 50
-Q0:Q:Count=50: P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103-*
-Q1:Q:Count=43: P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P13->P14->P15->P16->P17->P18->P19->P20->P21->P22->P23->P24->P26->P27->P28->P30->P31->P32->P35->P36->P37->P38->P40->P42->P43->P44->P45->P46->P47->P48->P49->P51->P52-*
-Q2:Q:Count=0: 
-Q3:Q:Count=0: 
-Q4:Q:Count=0: 
-Q5:Q:Count=0: 
-Q6:Q:Count=0: 
-Q7:Q:Count=0: 
-Q8:Q:Count=0: 
-Q9:Q:Count=0: 
-Q10:Q:Count=0: 
-Q11:Q:Count=0: 
-Q12:Q:Count=0: 
-Q13:Q:Count=0: 
-Q14:Q:Count=0: 
-Q15:Q:Count=0: 
+scheduling
+Iteration: 44
+Q0:Q:Count=41: P44->P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84-*
+Q1:Q:Count=33: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
 Privileged few:
-contents: PID: 0x2, state: 1, memloc: 0x0 PC: 0x000D
-contents: PID: 0x3, state: 1, memloc: 0x0 PC: 0x001A
-contents: PID: 0x9, state: 1, memloc: 0x0 PC: 0x003C
-contents: PID: 0xB, state: 1, memloc: 0x0 PC: 0x0045
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 45
+Q0:Q:Count=41: P45->P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85-*
+Q1:Q:Count=34: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 46
+Q0:Q:Count=42: P46->P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87-*
+Q1:Q:Count=35: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 47
+Q0:Q:Count=42: P47->P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88-*
+Q1:Q:Count=36: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 48
+Q0:Q:Count=45: P48->P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92-*
+Q1:Q:Count=37: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 49
+Q0:Q:Count=48: P49->P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96-*
+Q1:Q:Count=38: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 50
+Q0:Q:Count=49: P50->P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98-*
+Q1:Q:Count=38: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 51
+Q0:Q:Count=48: P51->P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98-*
+Q1:Q:Count=39: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 52
+Q0:Q:Count=47: P52->P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98-*
+Q1:Q:Count=40: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 53
+Q0:Q:Count=47: P53->P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99-*
+Q1:Q:Count=40: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 54
+Q0:Q:Count=48: P54->P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101-*
+Q1:Q:Count=41: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 55
+Q0:Q:Count=48: P55->P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102-*
+Q1:Q:Count=42: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 56
+Q0:Q:Count=49: P56->P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104-*
+Q1:Q:Count=43: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 57
+Q0:Q:Count=50: P57->P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106-*
+Q1:Q:Count=44: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 58
+Q0:Q:Count=49: P58->P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106-*
+Q1:Q:Count=45: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 3 pcbs
+scheduling
+Iteration: 59
+Q0:Q:Count=51: P59->P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109-*
+Q1:Q:Count=46: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 3 pcbs
+scheduling
+Iteration: 60
+Q0:Q:Count=53: P60->P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112-*
+Q1:Q:Count=46: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 61
+Q0:Q:Count=54: P61->P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114-*
+Q1:Q:Count=46: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 3 pcbs
+scheduling
+Iteration: 62
+Q0:Q:Count=56: P62->P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117-*
+Q1:Q:Count=47: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 63
+Q0:Q:Count=57: P63->P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119-*
+Q1:Q:Count=48: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 64
+Q0:Q:Count=56: P64->P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119-*
+Q1:Q:Count=48: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 65
+Q0:Q:Count=59: P65->P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123-*
+Q1:Q:Count=49: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 66
+Q0:Q:Count=60: P66->P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125-*
+Q1:Q:Count=50: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 67
+Q0:Q:Count=61: P67->P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127-*
+Q1:Q:Count=51: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 68
+Q0:Q:Count=62: P68->P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129-*
+Q1:Q:Count=52: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 3 pcbs
+scheduling
+Iteration: 69
+Q0:Q:Count=64: P69->P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132-*
+Q1:Q:Count=53: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 70
+Q0:Q:Count=64: P70->P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133-*
+Q1:Q:Count=54: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 71
+Q0:Q:Count=64: P71->P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134-*
+Q1:Q:Count=55: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 72
+Q0:Q:Count=64: P72->P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135-*
+Q1:Q:Count=56: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 3 pcbs
+scheduling
+Iteration: 73
+Q0:Q:Count=66: P73->P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138-*
+Q1:Q:Count=56: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 74
+Q0:Q:Count=67: P74->P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140-*
+Q1:Q:Count=57: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 75
+Q0:Q:Count=68: P75->P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142-*
+Q1:Q:Count=58: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 76
+Q0:Q:Count=68: P76->P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143-*
+Q1:Q:Count=59: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 77
+Q0:Q:Count=68: P77->P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144-*
+Q1:Q:Count=59: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 78
+Q0:Q:Count=71: P78->P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148-*
+Q1:Q:Count=60: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 79
+Q0:Q:Count=71: P79->P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149-*
+Q1:Q:Count=61: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 80
+Q0:Q:Count=74: P80->P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153-*
+Q1:Q:Count=62: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 81
+Q0:Q:Count=74: P81->P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154-*
+Q1:Q:Count=63: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 82
+Q0:Q:Count=74: P82->P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155-*
+Q1:Q:Count=64: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 3 pcbs
+scheduling
+Iteration: 83
+Q0:Q:Count=76: P83->P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158-*
+Q1:Q:Count=65: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 84
+Q0:Q:Count=75: P84->P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158-*
+Q1:Q:Count=65: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 85
+Q0:Q:Count=78: P85->P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162-*
+Q1:Q:Count=66: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 3 pcbs
+scheduling
+Iteration: 86
+Q0:Q:Count=80: P86->P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165-*
+Q1:Q:Count=66: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 87
+Q0:Q:Count=79: P87->P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165-*
+Q1:Q:Count=67: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 88
+Q0:Q:Count=78: P88->P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165-*
+Q1:Q:Count=68: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 89
+Q0:Q:Count=77: P89->P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165-*
+Q1:Q:Count=69: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 90
+Q0:Q:Count=78: P90->P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167-*
+Q1:Q:Count=70: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 91
+Q0:Q:Count=79: P91->P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169-*
+Q1:Q:Count=71: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 1 pcbs
+scheduling
+Iteration: 92
+Q0:Q:Count=79: P92->P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170-*
+Q1:Q:Count=71: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 3 pcbs
+scheduling
+Iteration: 93
+Q0:Q:Count=81: P93->P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170->P171->P172->P173-*
+Q1:Q:Count=72: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89->P91-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 94
+Q0:Q:Count=84: P94->P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170->P171->P172->P173->P174->P175->P176->P177-*
+Q1:Q:Count=72: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89->P91-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 95
+Q0:Q:Count=87: P95->P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170->P171->P172->P173->P174->P175->P176->P177->P178->P179->P180->P181-*
+Q1:Q:Count=73: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89->P91->P93-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 96
+Q0:Q:Count=86: P96->P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170->P171->P172->P173->P174->P175->P176->P177->P178->P179->P180->P181-*
+Q1:Q:Count=74: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89->P91->P93->P94-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 97
+Q0:Q:Count=85: P97->P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170->P171->P172->P173->P174->P175->P176->P177->P178->P179->P180->P181-*
+Q1:Q:Count=75: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89->P91->P93->P94->P95-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 0 pcbs
+scheduling
+Iteration: 98
+Q0:Q:Count=84: P98->P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170->P171->P172->P173->P174->P175->P176->P177->P178->P179->P180->P181-*
+Q1:Q:Count=76: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89->P91->P93->P94->P95->P96-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 2 pcbs
+scheduling
+Iteration: 99
+Q0:Q:Count=85: P99->P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170->P171->P172->P173->P174->P175->P176->P177->P178->P179->P180->P181->P182->P183-*
+Q1:Q:Count=77: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89->P91->P93->P94->P95->P96->P97-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
+
+Created 4 pcbs
+scheduling
+Iteration: 100
+Q0:Q:Count=88: P100->P101->P102->P103->P104->P105->P106->P107->P108->P109->P110->P111->P112->P113->P114->P115->P116->P117->P118->P119->P120->P121->P122->P123->P124->P125->P126->P127->P128->P129->P130->P131->P132->P133->P134->P135->P136->P137->P138->P139->P140->P141->P142->P143->P144->P145->P146->P147->P148->P149->P150->P151->P152->P153->P154->P155->P156->P157->P158->P159->P160->P161->P162->P163->P164->P165->P166->P167->P168->P169->P170->P171->P172->P173->P174->P175->P176->P177->P178->P179->P180->P181->P182->P183->P184->P185->P186->P187-*
+Q1:Q:Count=78: P1->P3->P4->P5->P6->P8->P9->P10->P11->P12->P13->P14->P15->P17->P18->P19->P20->P22->P23->P25->P26->P27->P28->P30->P31->P32->P33->P34->P35->P36->P39->P40->P41->P43->P44->P45->P46->P47->P49->P50->P52->P53->P54->P55->P56->P57->P60->P61->P63->P64->P65->P66->P67->P68->P69->P70->P72->P73->P74->P76->P77->P78->P79->P80->P81->P83->P85->P86->P87->P88->P89->P91->P93->P94->P95->P96->P97->P98-*
+Q2:Q:Count=0:
+Q3:Q:Count=0:
+Q4:Q:Count=0:
+Q5:Q:Count=0:
+Q6:Q:Count=0:
+Q7:Q:Count=0:
+Q8:Q:Count=0:
+Q9:Q:Count=0:
+Q10:Q:Count=0:
+Q11:Q:Count=0:
+Q12:Q:Count=0:
+Q13:Q:Count=0:
+Q14:Q:Count=0:
+Q15:Q:Count=0:
+Privileged few:
+contents: PID: 0x4, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x5, state: 1, memloc: 0x0 PC: 0x0038
+contents: PID: 0x8, state: 1, memloc: 0x0 PC: 0x005C
+contents: PID: 0xC, state: 1, memloc: 0x0 PC: 0x0087
 
 -----------------------End Program-----------------------
